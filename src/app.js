@@ -39,7 +39,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
-        helpText: 'This is some help text',
+        helpText: 'Please reach out to msasikumarbeeee@gmail.com',
         author: 'Sasi Kumar M'
     });
 });
